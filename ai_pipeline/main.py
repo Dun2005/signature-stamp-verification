@@ -118,7 +118,7 @@ def main():
     )
 
     # 5. Xác thực chữ kí và con dấu có trong CSDL hay không
-    print("Validating signatures and stamps...")
+    print("Verify signatures and stamps...")
     compare_test_folder_with_db(model_path=SIAMESE_MODEL_PATH, mask_folder=MASK_SIGNATURE_DIR, db_root=PREPROCESSED_SIGNATURE_DIR)
     compare_test_folder_with_db(model_path=SIAMESE_MODEL_PATH, mask_folder=MASK_STAMP_DIR, db_root=PREPROCESSED_STAMP_DIR)
     
