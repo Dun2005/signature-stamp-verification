@@ -5,7 +5,7 @@ from config.settings import *
 from src.preprocessing import *
 from src.detection import *
 from src.segmentation import *
-from src.validation import *
+from src.verification import *
 from src.utils import *
 
 def setup_dirs():
