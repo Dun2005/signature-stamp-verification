@@ -18,7 +18,7 @@ cd signature_stamp_verification/ai_pipeline
 # Tạo môi trường ảo
 python -m venv venv
 ```
-
+Tạo một thư mục tên là `models` (nằm trong `ai_pipeline`), tải 3 models tại Hugging Face Hub này: https://huggingface.co/doanvietduc/signature_stamp và bỏ vào thư mục `models`
 **Kích hoạt môi trường ảo:**
 
 * **Windows**
